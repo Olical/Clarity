@@ -9,3 +9,6 @@
 	
 	<body>
 		<div class='container'>
+			<header>
+				<h1><?php bloginfo('blog_title'); ?></h1>
+			</header>
