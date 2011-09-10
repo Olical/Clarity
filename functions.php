@@ -44,4 +44,14 @@ function clarity_theme_init()
 	remove_action('wp_head', 'start_post_rel_link', 10, 0);
 	remove_action('wp_head', 'adjacent_posts_rel_link', 10, 0);
 	wp_deregister_script('l10n');
+	
+	// Register widget areas
+	register_sidebar(array(
+		'name'=> 'Right widget area',
+		'id' => 'right_widget_area',
+		'before_widget' => '<li>',
+		'after_widget' => '</li>',
+		'before_title' => '<h4>',
+		'after_title' => '</h4>'
+	));
 }
