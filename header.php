@@ -10,5 +10,5 @@
 	<body>
 		<div class='container'>
 			<header  class='sixteen columns'>
-				<h1><?php bloginfo('blog_title'); ?></h1>
+				<h1><a href='/'><?php bloginfo('blog_title'); ?></a></h1>
 			</header>
