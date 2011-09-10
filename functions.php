@@ -24,5 +24,5 @@ function clarity_theme_init()
 	wp_enqueue_style('clarity_theme_styles');
 	
 	// Enqueue scripts
-	wp_enqueue_style('clarity_theme_scripts');
+	wp_enqueue_script('clarity_theme_scripts');
 }
