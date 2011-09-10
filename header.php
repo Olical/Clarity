@@ -14,4 +14,12 @@
 				<p><em><?php bloginfo('description'); ?></em></p>
 			</header>
 			
+			<nav class='sixteen columns'>
+				<?php
+					wp_nav_menu(array(
+						'menu' => 'Main navigation'
+					));
+				?>
+			</nav>
+			
 			<section class='eleven columns'>
