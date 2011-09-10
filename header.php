@@ -17,7 +17,8 @@
 			<nav class='sixteen columns'>
 				<?php
 					wp_nav_menu(array(
-						'menu' => 'Main navigation'
+						'menu' => 'Main navigation',
+						'container_class' => 'main-navigation-container'
 					));
 				?>
 			</nav>
