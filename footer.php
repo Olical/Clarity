@@ -1,3 +1,6 @@
+				<div class='pagination'>
+					<?php posts_nav_link(' &middot; ', '&larr; Previous', 'Next &rarr;'); ?>
+				</div>
 			</section>
 			
 			<aside class='five columns'>

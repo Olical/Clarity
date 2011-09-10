@@ -140,6 +140,11 @@ article {
 	margin-bottom: 50px;
 }
 
+/* Pagination */
+div.pagination {
+	text-align: center;
+}
+
 /* Sidebar */
 aside {
 	background-color: #EEEEEE;
