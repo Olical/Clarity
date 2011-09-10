@@ -43,6 +43,8 @@ div.container {
 /* Header */
 header {
 	padding-top: 20px;
+	margin-bottom: 30px;
+	border-bottom: 2px solid #EEEEEE;
 }
 
 /* Sidebar */
@@ -56,4 +58,7 @@ aside {
 /* Footer */
 footer {
 	text-align: right;
+	padding-top: 20px;
+	margin-top: 30px;
+	border-top: 2px solid #EEEEEE;
 }
