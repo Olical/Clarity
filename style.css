@@ -7,9 +7,19 @@ Author URI: http://olivercaldwell.co.uk/
 Version: 1.0
 */
 
+/* Page */
+body {
+	background: #B9B9B9 url('assets/images/noise.png');
+}
+
 /* Text */
 p, h1, h2, h3, h4, h5, h6 {
 	font-family: 'Droid Sans', sans-serif;
+}
+
+/* Container */
+div.container {
+	background-color: #FFFFFF;
 }
 
 /* Header */
