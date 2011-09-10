@@ -9,7 +9,7 @@
 	
 	<body>
 		<div class='container'>
-			<header  class='sixteen columns'>
+			<header class='sixteen columns'>
 				<h1><a href='/'><?php bloginfo('name'); ?></a></h1>
 				<p><em><?php bloginfo('description'); ?></em></p>
 			</header>
