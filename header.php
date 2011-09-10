@@ -13,3 +13,5 @@
 				<h1><a href='/'><?php bloginfo('name'); ?></a></h1>
 				<p><em><?php bloginfo('description'); ?></em></p>
 			</header>
+			
+			<div class='eleven columns'>
