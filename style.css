@@ -27,6 +27,10 @@ h1 a, h1 a:visited {
 	color: inherit;
 }
 
+h1 a:hover {
+	color: #555555;
+}
+
 a:hover, a:visited {
 	color: #44A3FF;
 }
