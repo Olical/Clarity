@@ -22,12 +22,12 @@ a {
 	color: #0082FF;
 }
 
-h1 a, h1 a:visited {
+h1 a, h1 a:visited, h3 a, h3 a:visited {
 	text-decoration: inherit;
 	color: inherit;
 }
 
-h1 a:hover {
+h1 a:hover, h3 a:hover {
 	color: #555555;
 }
 
@@ -70,6 +70,62 @@ ul.main-navigation a {
 ul.main-navigation a:hover, ul.main-navigation li.current-menu-item a {
 	background-color: #666666;
 	color: #FFFFFF;
+}
+
+/* Articles */
+article section.post ul {
+	list-style-type: disc;
+	margin-left: 30px;
+}
+
+article h3.post-title {
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	background-color: #EEEEEE;
+	padding: 10px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+article section.post h1 {
+	font-size: 25px;
+	line-height: 28px;
+}
+
+article section.post h2 {
+	font-size: 20px;
+	line-height: 22px;
+}
+
+article section.post h3 {
+	font-size: 18px;
+	line-height: 20px;
+}
+
+article section.post h4 {
+	font-size: 15px;
+	line-height: 17px;
+}
+
+article section.post h5 {
+	font-size: 13px;
+	line-height: 16px;
+}
+
+article section.post h6 {
+	font-size: 11px;
+	line-height: 13px;
+}
+
+article section.post-meta {
+	padding-top: 10px;
+	margin-top: 10px;
+	border-top: 1px solid #EEEEEE;
+}
+
+article {
+	margin-bottom: 50px;
 }
 
 /* Sidebar */
