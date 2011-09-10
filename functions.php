@@ -17,7 +17,8 @@ function clarity_theme_init()
 	
 	// Register styles
 	wp_register_style('skeleton', $template_url . '/assets/css/skeleton.css', false, '1.1');
-	wp_register_style('clarity_theme_styles', $template_url . '/style.css', array('skeleton'));
+	wp_register_style('droid_sans_font', 'http://fonts.googleapis.com/css?family=Droid+Sans');
+	wp_register_style('clarity_theme_styles', $template_url . '/style.css', array('skeleton', 'droid_sans_font'));
 	
 	// Register scripts
 	wp_register_script('mootools', $template_url . '/assets/javascript/mootools.js', false, '1.4.0', true);
