@@ -1,7 +1,10 @@
 <?php
 
-// Add action hooks
-add_action('init', 'clarity_theme_init');
+// Add action hooks if we are not in the admin section
+if (!is_admin())
+{
+	add_action('init', 'clarity_theme_init');
+}
 
 /**
  * Initialises the theme
