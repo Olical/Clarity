@@ -17,6 +17,14 @@ p, h1, h2, h3, h4, h5, h6 {
 	font-family: 'Droid Sans', sans-serif;
 }
 
+a {
+	color: #0082FF;
+}
+
+a:hover, a:visited {
+	color: #44A3FF;
+}
+
 /* Container */
 div.container {
 	background-color: #FFFFFF;
