@@ -90,6 +90,16 @@ article h3.post-title {
 	border-radius: 5px;
 }
 
+article section.post img {
+	border: 5px solid #EEEEEE;
+}
+
+article section.post div.wp-caption {
+	text-align: center;
+	background-color: #EEEEEE;
+	padding: 5px;
+}
+
 article section.post h1 {
 	font-size: 25px;
 	line-height: 28px;
