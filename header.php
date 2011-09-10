@@ -9,6 +9,6 @@
 	
 	<body>
 		<div class='container'>
-			<header>
+			<header  class='sixteen columns'>
 				<h1><?php bloginfo('blog_title'); ?></h1>
 			</header>
