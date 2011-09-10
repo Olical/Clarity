@@ -55,6 +55,11 @@ aside {
 	border-radius: 5px;
 }
 
+/* Widget areas */
+ul.right-widget-area {
+	padding: 10px;
+}
+
 /* Footer */
 footer {
 	text-align: right;
