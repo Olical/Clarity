@@ -43,8 +43,33 @@ div.container {
 /* Header */
 header {
 	padding-top: 20px;
-	margin-bottom: 30px;
 	border-bottom: 2px solid #EEEEEE;
+}
+
+/* Menus */
+ul.main-navigation {
+	padding-top: 13px;
+	padding-bottom: 13px;
+	border-bottom: 2px solid #EEEEEE;
+}
+
+ul.main-navigation li {
+	display: inline;
+	margin-right: 10px;
+}
+
+ul.main-navigation a {
+	color: #333333;
+	text-decoration: none;
+	padding: 7px 10px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+
+ul.main-navigation a:hover, ul.main-navigation li.current-menu-item a {
+	background-color: #666666;
+	color: #FFFFFF;
 }
 
 /* Sidebar */
