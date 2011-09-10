@@ -1,8 +1,8 @@
-			</div>
+			</section>
 			
-			<div class='five columns'>
+			<aside class='five columns'>
 				<?php get_sidebar(); ?>
-			</div>
+			</aside>
 			
 			<footer class='sixteen columns'>
 				<p><a href='https://github.com/Wolfy87/Clarity'>Clarity WordPress theme</a> by <a href='http://olivercaldwell.co.uk/'>Oliver Caldwell</a>.</p>

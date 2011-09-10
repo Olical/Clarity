@@ -14,4 +14,4 @@
 				<p><em><?php bloginfo('description'); ?></em></p>
 			</header>
 			
-			<div class='eleven columns'>
+			<section class='eleven columns'>

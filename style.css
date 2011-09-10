@@ -45,6 +45,14 @@ header {
 	padding-top: 20px;
 }
 
+/* Sidebar */
+aside {
+	background-color: #EEEEEE;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
 /* Footer */
 footer {
 	text-align: right;
