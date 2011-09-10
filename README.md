@@ -1,6 +1,6 @@
 # About
 
-Clarity is a responsive clean WordPress theme.
+Clarity is a clean and responsive WordPress theme.
 
 It uses [the Skeleton CSS framework](http://www.getskeleton.com/) as a grid system which provides the responsive layout.
 
