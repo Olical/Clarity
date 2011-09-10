@@ -1,16 +1,12 @@
 <?php
 
-// Add action hooks if we are not in the admin section
-if (!is_admin())
-{
-	add_action('init', 'clarity_theme_init');
-}
+// Add action hooks
+add_action('init', 'clarity_theme_init');
 
 /**
- * Initialises the theme
- * Enqueues all scripts and styles
+ * Initialises specifically frontend items
  */
-function clarity_theme_init()
+function clarity_theme_init_frontend()
 {
 	// Grab the template URL
 	$template_url = get_bloginfo('template_url');
@@ -44,6 +40,17 @@ function clarity_theme_init()
 	remove_action('wp_head', 'start_post_rel_link', 10, 0);
 	remove_action('wp_head', 'adjacent_posts_rel_link', 10, 0);
 	wp_deregister_script('l10n');
+}
+
+/**
+ * Initialises the theme
+ */
+function clarity_theme_init()
+{
+	if (!is_admin())
+	{
+		clarity_theme_init_frontend();
+	}
 	
 	// Register widget areas
 	register_sidebar(array(
