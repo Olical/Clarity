@@ -38,6 +38,8 @@ a:hover, a:visited {
 /* Container */
 div.container {
 	background-color: #FFFFFF;
+	padding-left: 5px;
+	padding-right: 5px;
 }
 
 /* Header */
