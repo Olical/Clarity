@@ -18,7 +18,8 @@
 				<?php
 					wp_nav_menu(array(
 						'menu' => 'Main navigation',
-						'container_class' => 'main-navigation-container'
+						'container_class' => 'main-navigation-container',
+						'items_wrap' => '<ul class=\'main-navigation\'>%3$s</ul>'
 					));
 				?>
 			</nav>
