@@ -15,10 +15,16 @@ body {
 /* Text */
 p, h1, h2, h3, h4, h5, h6 {
 	font-family: 'Droid Sans', sans-serif;
+	color: #222222;
 }
 
 a {
 	color: #0082FF;
+}
+
+h1 a, h1 a:visited {
+	text-decoration: inherit;
+	color: inherit;
 }
 
 a:hover, a:visited {
