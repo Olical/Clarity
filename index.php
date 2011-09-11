@@ -25,6 +25,10 @@
 							}
 						?>.<br /><?php the_tags('Tagged with ', ', ', '.'); ?></p>
 					</section>
+					
+					<section>
+						<?php comments_template(); ?>
+					</section>
 				</article>
 			<?php
 		}
