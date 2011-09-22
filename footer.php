@@ -1,10 +1,22 @@
 				<div class='pagination'>
 					<span class='previous'>
-						<?php previous_posts_link('&larr; Previous'); ?>
+						<?php
+							previous_posts_link('&larr; Previous');
+							
+							if (is_single()) {
+								previous_post('&larr; %', false);
+							}
+						?>
 					</span>
 					
 					<span class='next'>
-						<?php next_posts_link('Next &rarr;'); ?>
+						<?php
+							next_posts_link('Next &rarr;');
+							
+							if (is_single()) {
+								next_post('% &rarr; ', false);
+							}
+						?>
 					</span>
 				</div>
 			</section>
