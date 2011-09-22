@@ -1,5 +1,11 @@
 				<div class='pagination'>
-					<?php posts_nav_link(' &middot; ', '&larr; Previous', 'Next &rarr;'); ?>
+					<span class='previous'>
+						<?php previous_posts_link('&larr; Previous'); ?>
+					</span>
+					
+					<span class='next'>
+						<?php next_posts_link('Next &rarr;'); ?>
+					</span>
 				</div>
 			</section>
 			

@@ -141,8 +141,8 @@ article {
 }
 
 /* Pagination */
-div.pagination {
-	text-align: center;
+div.pagination span.next {
+	float: right;
 }
 
 /* Sidebar */
