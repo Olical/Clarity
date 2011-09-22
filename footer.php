@@ -1,7 +1,7 @@
 				<div class='pagination'>
 					<span class='previous'>
 						<?php
-							previous_posts_link('&larr; Previous');
+							previous_posts_link('&larr; Previous page');
 							
 							if (is_single()) {
 								previous_post('&larr; %', false);
@@ -11,7 +11,7 @@
 					
 					<span class='next'>
 						<?php
-							next_posts_link('Next &rarr;');
+							next_posts_link('Next page &rarr;');
 							
 							if (is_single()) {
 								next_post('% &rarr; ', false);
